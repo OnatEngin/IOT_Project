@@ -10,12 +10,10 @@
 ### 2. Python Arayüzü Çalıştırma
 
 ```bash
-# Bağımlılıkları yükle
-pip install -r requirements.txt
 
 # Ortam değişkenlerini ayarla
 cp arayuz/.env.example arayuz/.env
 # .env içindeki AWS anahtarlarını doldur
 
 # Uygulamayı çalıştır
-python arayuz/cloudwatch_fetcher.py
+python arayuz/app.py
