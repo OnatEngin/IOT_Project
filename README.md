@@ -12,7 +12,6 @@
 ```bash
 
 # Ortam değişkenlerini ayarla
-cp arayuz/.env.example arayuz/.env
 # .env içindeki AWS anahtarlarını doldur
 
 # Uygulamayı çalıştır
